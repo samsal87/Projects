@@ -7,11 +7,11 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import { HomeScreen, HomeAbout, HomeSetting } from './component/TestMode/HomeScreen'
 import Setting from './component/TestMode/Setting'
 import About from './component/TestMode/About'
-import GitHubApp from './component/GitHub/GitHubApp'
+//import GitHubApp from './component/GitHub/GitHubApp'
 import GitHubApp from './GitHub/GitHubApp'
 import Counter from './component/Counter/Counter'
 //import HomeWork from './component/HomeWork'
-import { HomeScreen } from './component/TestMode/HomeScreen'
+//import { HomeScreen } from './component/TestMode/HomeScreen'
 //import CardApp from './component/CardApp'
 import CardApp from './component/CardApp'
 
@@ -23,7 +23,10 @@ const App = () =>{
       <Route path = "/" exact component = {HomeScreen}/>
       <Route path = "/About" exact component = {About}/>
       <Route path = "/Setting" exact component = {Setting}/>
-      <Route path = "/Github" exact component = {GitHubApp}/>
+      <Route path = "/GitHubApp" exact component = {GitHubApp}/>
+      <Route path = "/HeaderNav" exact component = {HeaderNav}/>
+      <Route path = "/HomeInput" exact component = {HomeInput}/>
+      
     </Switch>
   </Router>
   )

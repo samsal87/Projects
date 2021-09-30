@@ -44,7 +44,7 @@
 	font-weight: bold;
 	height: 50px;
 	width: 50px;
-        display: flex;
+    display: flex;
 	justify-content: center;
 	align-items: center;
 		
@@ -65,8 +65,8 @@
 }
 
 .cardQuote {
-        text-align: center;
-        font-style: italic;
+    text-align: center;
+    font-style: italic;
 	font-family: Poppins;
 	font-weight: bold;
 }
